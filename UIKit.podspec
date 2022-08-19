@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/wangyan320"
-  # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #
 
   s.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,9 +53,9 @@ Pod::Spec.new do |s|
   #
 
   s.author             = { "ywang" => "3277200145@qq.com" }
-  # Or just: spec.author    = "zhangstar-macbookpro"
-  # spec.authors            = { "zhangstar-macbookpro" => "zhangstar666@gmail.com" }
-  # spec.social_media_url   = "https://twitter.com/zhangstar-macbookpro"
+  # Or just: s.author    = "zhangstar-macbookpro"
+  # s.authors            = { "zhangstar-macbookpro" => "zhangstar666@gmail.com" }
+  # s.social_media_url   = "https://twitter.com/zhangstar-macbookpro"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -63,17 +63,17 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "9.0"
+  # s.platform     = :ios
+  # s.platform     = :ios, "9.0"
     
     s.platform     = :ios
     s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
-  # spec.osx.deployment_target = "10.7"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
+  # s.ios.deployment_target = "5.0"
+  # s.osx.deployment_target = "10.7"
+  # s.watchos.deployment_target = "2.0"
+  # s.tvos.deployment_target = "9.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,10 +93,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  #  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  #  spec.exclude_files = "Classes/Exclude"
+  #  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #  s.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = ""
+  # s.public_header_files = ""
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -107,10 +107,10 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  # s.resource  = "icon.png"
+  # s.resources = "Resources/*.png"
 
-  # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
+  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -119,11 +119,11 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+  # s.framework  = "SomeFramework"
     s.frameworks = "Foundation", "UIKit"
 
-  # spec.library   = "iconv"
-  # spec.libraries = "iconv", "xml2"
+  # s.library   = "iconv"
+  # s.libraries = "iconv", "xml2"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -134,7 +134,7 @@ Pod::Spec.new do |s|
 
     s.requires_arc = true
 
-  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  # s.dependency "JSONKit", "~> 1.4"
 
 end
