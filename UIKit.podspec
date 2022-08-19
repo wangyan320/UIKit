@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     iOS工具类,自定义控件
                    DESC
 
-  s.homepage     = "https://github.com/wangyan320"
+  s.homepage     = "https://github.com/wangyan320/"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
