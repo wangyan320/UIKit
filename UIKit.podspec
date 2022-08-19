@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "UIKit"
   s.version      = "0.0.1"
-  s.summary      = "A short description of UIKit."
+  s.summary      = "iOS工具类"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                    iOS工具类
                    DESC
 
   s.homepage     = "https://github.com/wangyan320"
@@ -95,7 +96,11 @@ Pod::Spec.new do |s|
 
   #  s.source_files  = "Classes", "Classes/**/*.{h,m}"
   #  s.exclude_files = "Classes/Exclude"
-
+  
+    s.source_files = "UIKIt/UIKit/UIKit/*"
+  
+    s.exclude_files = ""
+    
   # s.public_header_files = ""
 
 
