@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -15,19 +15,19 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "UIKit"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of UIKit."
+  s.name         = "UIKit"
+  s.version      = "0.0.1"
+  s.summary      = "A short description of UIKit."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
+  s.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "https://github.com/wangyan320"
+  s.homepage     = "https://github.com/wangyan320"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
+  s.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "ywang" => "3277200145@qq.com" }
+  s.author             = { "ywang" => "3277200145@qq.com" }
   # Or just: spec.author    = "zhangstar-macbookpro"
   # spec.authors            = { "zhangstar-macbookpro" => "zhangstar666@gmail.com" }
   # spec.social_media_url   = "https://twitter.com/zhangstar-macbookpro"
@@ -66,8 +66,8 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios
   # spec.platform     = :ios, "9.0"
     
-    spec.platform     = :ios
-    spec.platform     = :ios, "9.0"
+    s.platform     = :ios
+    s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -82,7 +82,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/wangyan320/frameworkDemo.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/wangyan320/UIKit.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,8 +93,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  #  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #  spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = ""
 
@@ -120,7 +120,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-    spec.frameworks = "Foundation", "UIKit"
+    s.frameworks = "Foundation", "UIKit"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
